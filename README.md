@@ -5,8 +5,9 @@
 NutriHive is a static website designed to help low-income households, especially co-living students, bridge the gap between health management and budget optimization. It offers a user-friendly solution for balanced nutrition at minimal cost. Key features include multi-member management, tailored recipe suggestions, and optimized shopping lists, ensuring individualized recommendations for each person while facilitating collaborative shopping.
 
 ## How to Compile and Run
-### Step one :Installing Dependencies
-Before starting, please install all the required dependencies. You can use the following command:
+
+### Step One: Installing Dependencies
+Before starting, please install all the required dependencies. Use the following commands:
 
 ```bash
 pip install Flask
@@ -22,16 +23,18 @@ First, change your working directory to the folder named `Flask`, which contains
 ```bash
 cd path/to/Flask
 ```
+
 ### Step Three: Run the Application
+To start the Flask server, run the command below:
 
 ```bash
 python app.py
 ```
-### Step Three: Access the Application
-After running the above command, you will see a URL, typically something like http://127.0.0.1:5000/. Click on the link or enter it in your browser to access NutriHive.
+
+### Step Four: Access the Application
+After running the above command, you will see a URL, typically something like `http://127.0.0.1:5000/`. Click on the link or enter it in your browser to access NutriHive.
 
 ## Data Dependencies
-
 This section provides information on all the data required by the project, including data sources and storage locations.
 
 ### Data
@@ -54,25 +57,24 @@ This section provides information on all the data required by the project, inclu
 
 The product data and recipe images are stored in respective directories (`flask/static/Coles`, `flask/static/Woolworths`, and `flask/static/images`), while the recipe information is in `config.py`.
 
-   -
-
 ## Software and Libraries Used
 The following software and libraries are used in this project. For your convenience, we have provided the relevant source links:
+
 1. **Flask** - A micro web framework for Python.
    - Source: [Flask on GitHub](https://github.com/pallets/flask)
    - Documentation: [Flask Documentation](https://flask.palletsprojects.com/)
+
 2. **Flask-SQLAlchemy** - Adds SQLAlchemy support to Flask applications.
    - Source: [Flask-SQLAlchemy on GitHub](https://github.com/pallets/flask-sqlalchemy)
    - Documentation: [Flask-SQLAlchemy Documentation](https://flask-sqlalchemy.palletsprojects.com/)
+
 3. **Flask-Login** - A user session management for Flask.
    - Source: [Flask-Login on GitHub](https://github.com/maxcountryman/flask-login)
    - Documentation: [Flask-Login Documentation](https://flask-login.readthedocs.io/)
+
 4. **Flask-Migrate** - Handles SQLAlchemy database migrations for Flask applications using Alembic.
    - Source: [Flask-Migrate on GitHub](https://github.com/miguelgrinberg/flask-migrate)
    - Documentation: [Flask-Migrate Documentation](https://flask-migrate.readthedocs.io/)
 
-
-
-
-
+## Summary
 This document provides information about the dependencies, data requirements, and steps for compiling, executing, and running the NutriHive code. It also lists the reused software and their sources.
